@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        
+
+        body {
+                background: linear-gradient(to top, #182ac4 9%, rgb(70, 79, 185) 100%);
+        }
+        @media (max-width:450px) {
+            body {
+                background-color: rgb(70, 79, 185);
+            }
+        }
+
+        h2 {
+            color: rgb(7, 12, 92);
+        }
+        @media (max-width:450px) {
+            h2 {
+                color: #79c7c7;
+            }
+        }
+
+        hr{
+            width: 90%;
+            margin-top: 0;
+            border: solid 20px rgb(151, 156, 202);
+            border-radius: 30px;
+        }
+        @media (max-width:450px) {
+            hr{
+                border: solid 5px rgb(42, 123, 199);
+                border-radius: 50%;
+                box-shadow: 0px 1px 5px 0px  rgb(48, 55, 87);
+            }
+        }
+
+
+        .profile-photo {
+            border-radius: 50%;
+            align-items: center;
+            display: flex;
+            margin: 5px auto 10px auto;
+            width:  20%;
+            height: 90%;
+            position: relative;
+            border: solid 0px;
+            box-shadow: 0px 0px 20px 5px rgb(127, 142, 163);
+            }
+
+        @media (max-width: 600px) {
+            .profile-photo {
+                width: 30%;
+                border: solid 5px rgb(0, 225, 255);
+                box-shadow: 0px 0px 20px 5px rgb(127, 142, 163);
+            }
+        }
+
+
+
+
+        .summarry {
+            display: flex;
+            width: 95%;
+            justify-content: center;
+            margin: 20px auto 20px auto;
+            color: aliceblue;
+            background: rgb(161, 114, 238);
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 3rem;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+    }
+        @media (max-width: 500px) {
+            .summarry {
+                width: 90% ;
+                font-size: 80%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: rgb(123, 123, 190);
+            }
+        }
+
+
+        li {
+            color: rgb(6, 45, 95);
+            font-size: 25px;
+        }  
+    
+        @media (max-width: 500px) {
+            li {
+                font-size: 60%;
+                width: 80%;
+                color: rgb(255, 255, 255);
+            }
+        }
+
+
+
+        .lists {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            background-color: rgb(112, 165, 201);
+            width: 90%;
+            padding-bottom: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 30px;
+            border: solid 3px  rgb(53, 56, 248);
+            box-shadow: 0px 0px 20px 1px rgb(201, 255, 243);
+        }
+
+        @media (max-width:500px){
+            .lists {
+                background-color: rgb(50, 86, 205);
+                box-shadow: 0px 0px 20px 1px rgb(24, 37, 44);
+                border: solid 0px  rgb(53, 56, 248);
+            }
+        }
+
+
+
+        .upper-design {
+            width: 90%;
+            height: 300px;
+            background-color: rgb(182, 169, 255);
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            position: relative;
+            border-radius: 50px;
+            padding-top: 1px;
+            padding-bottom: 20x;
+        }
+
+        @media (max-width: 400px) {
+            .upper-design {
+                height: 100px;
+                padding: 0px 0px 10px 0px;
+                background: linear-gradient(to bottom, #33ccff 0%, #060857 100%);
+                border-radius: 30px;
+            }
+        }
+
+
+        .my-hobie {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        body > div.my-hobie > h2 {
+            color: rgb(70, 79, 185);
+            font-size: 4rem;
+            background-color: #ffd8ab;
+            width: 80%;
+            text-align: center;
+            border-radius:  50px;
+            padding: 10px;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            border: solid 10px;
+            border-left: solid rgb(70, 79, 185) 200px;
+            border-right: solid rgb(70, 79, 185)  200px;
+        }
+        @media(max-width:400px) {
+            body > div.my-hobie > h2 {
+                color: rgb(243, 250, 215);
+                font-size: 1.5rem;
+                width: 100%;
+                border-radius: 50%;
+                background-color: #060857;
+                border: solid 0px;
+            }
+        }
+
+        .dimdimanews {
+            color: rgb(223, 243, 46);
+            width: 90%;
+            font-size: 5rem;
+            text-align: center;
+            border-radius: 500px;
+            margin: auto;
+            padding: 50px;
+            background: linear-gradient(to top, #b7e3f1 9%, #1f9266 100%);
+            margin-bottom: 10px;
+            font-family: "Abril Fatface", serif;
+            font-weight: 400;
+            font-style: normal;
+            border-tex
+        }
+
+        @media (max-width:450px) {
+            .dimdimanews {
+                font-size: 2rem;
+                padding: 10px;
+                border-radius: 10px;
+                background: linear-gradient(to top, #33ccff 9%, #135724 100%);
+                color: aliceblue;
+            }
+        }
+
+        body > a > p:nth-child(2) {
+            color: antiquewhite;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        @media (max-width:450px) {
+            body > a > p:nth-child(2) {
+                font-size: 1rem;
+            }
+        }
+
+        .footer-one {
+            text-align: center;
+            font-size: 2rem;
+            background: linear-gradient(to top, rgb(103, 60, 182) 9%, rgb(182, 169, 255));
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-radius: 20px; 
+            color: wheat;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        @media (max-width:450px) {
+            .footer-one {
+                font-size: 1rem;
+                color: #042b96;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="upper-design" >
+
+    <img class="profile-photo" src="https://scontent.fixb2-1.fna.fbcdn.net/v/t39.30808-6/301922756_769697987567258_1355708930451048607_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Ajg2jmEim9oQ7kNvgFe-z9C&_nc_ht=scontent.fixb2-1.fna&oh=00_AfAsA4Pw9XbUbsW4Wf7GMNQyh1foeya1jsErKO9YUJ1Y6g&oe=66301406" alt="profile photo">
+     
+</div>
+
+    <div class="summarry">
+    <!--Summarry-->
+    Hi, I am Akash. i wanna be a 3d animator, I have exolored lots of new stuff in animation. I'm enjoying to  learn this . In my daily life, i am a profesional photo editor & also video editor .
+    </div>
+    <hr/>
+
+    
+    <div class="lists">
+
+    <!--Thoughts-->
+
+    <ul>
+    <li> <h2>Thoughts</h2> </li>
+    <ul>
+        <li>I really didn't like to study in . especialy in our school.</li>
+        <li>I really like to play any kind of games.</li>
+        <li>One of my favourite work was using computer of my teacher, which was my tutor.</li>
+    </ul>
+    <!--Work experience-->
+    <li> <h2> Work experience </h2> </li>
+
+    <ul>
+        <li>I have 3 years of photo editing experience. </li>
+        <li> I'm doing video editing since around 2 years. </li>
+    </ul>
+    
+    <li> <h2> My goals </h2></li>
+    <ul>
+        <li>I wanna be a website devloper as well as animator.</li>
+    </ul>
+</ul>
+</div>
+
+<!--second part-->
+
+<hr/>
+<div class="my-hobie" >
+<h2>I'm Working in this channel</h2>
+</div>
+<a href="https://www.facebook.com/dimdimanews" ><p class="dimdimanews"> DIMDIMA NEWS </p>
+<p>Tap for visit the page</p></a>
+
+<a href="https://www.facebook.com/profile.php?id=100075956441885">
+<footer class="footer-one">
+    <p>Contact Me / 2024</p>
+</footer>
+</a>
+
+</body>
+</html>
